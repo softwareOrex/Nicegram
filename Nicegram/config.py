@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 env_path = Path(__file__).parent / '.env'
 load_dotenv(dotenv_path=env_path)
 
-BOT_TOKEN = "8370566284:AAEP4Xk6HGKWxNYCZOtWFosN2ckgmGEVovU"
+BOT_TOKEN = ""
 
-ADMIN_ID = 7647578051 #тут ваш айди
+ADMIN_ID =  #тут ваш айди
 
 IMAGES_DIR = Path(__file__).parent / 'images'
 MAIN_MENU_PHOTO = os.getenv('MAIN_MENU_PHOTO', str(IMAGES_DIR / '/storage/emulated/0/Nicegram/images/Nicegram.jpg'))
